@@ -1,7 +1,8 @@
 import React from "react";
-// eslint-disable-next-line no-unused-vars
-import { Switch, Route } from "react-router-dom";
+import { Switch, Route, Redirect } from "react-router-dom";
 import List from "./List";
+// eslint-disable-next-line no-unused-vars
+import Card from "./Card";
 import "./App.css";
 
 class App extends React.Component {
@@ -45,7 +46,20 @@ class App extends React.Component {
   render() {
     const items = this.props[this.listName];
 
-    return <List items={items} />;
+    const cardComponent = ({ match }) => {
+      const item = items.filter(({ src }) => src === match.params.src)[0];
+      return <Card {...item} />;
+    };
+
+    return (
+      <Switch>
+        <Route exact path={`/${this.listName}/:src`} render={cardComponent} />
+        <Route exact path={`/${this.listName}`}>
+          <List items={items} />
+        </Route>
+        <Redirect to={`/${this.listName}`} />
+      </Switch>
+    );
   }
 }
 
