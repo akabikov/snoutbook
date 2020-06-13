@@ -1,10 +1,10 @@
 import React from "react";
-import { Redirect } from "react-router-dom";
+import { Redirect, withRouter } from "react-router-dom";
 import data from "./data.json";
 
 class Card extends React.Component {
   render() {
-    const { listName, src } = this.props;
+    const { listName, src, history } = this.props;
 
     const [item] = data[listName].filter((el) => el.src === src);
 
@@ -19,9 +19,10 @@ class Card extends React.Component {
         <h2>{name}</h2>
         <p>{age} years old</p>
         {factsList}
+        <button onClick={history.goBack}>Go Back</button>
       </div>
     );
   }
 }
 
-export default Card;
+export default withRouter(Card);
