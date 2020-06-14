@@ -1,6 +1,7 @@
 import React from "react";
 import { Redirect, withRouter } from "react-router-dom";
 import data from "./data.json";
+import "./Card.css";
 
 class Card extends React.Component {
   render() {
