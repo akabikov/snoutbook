@@ -2,7 +2,7 @@
   "dogs": [
     {
       "name": "Whiskey",
-      "age": 5,
+      "descr": "5 years old",
       "src": "whiskey",
       "facts": [
         "Whiskey loves eating popcorn.",
@@ -12,7 +12,7 @@
     },
     {
       "name": "Hazel",
-      "age": 3,
+      "descr": "3 years old",
       "src": "hazel",
       "facts": [
         "Hazel has soooo much energy!",
@@ -22,7 +22,7 @@
     },
     {
       "name": "Tubby",
-      "age": 4,
+      "descr": "4 years old",
       "src": "tubby",
       "facts": [
         "Tubby is not the brightest dog",
