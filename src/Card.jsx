@@ -6,7 +6,7 @@ class Card extends React.Component {
   render() {
     const { listName, src, history } = this.props;
 
-    const [item] = data[listName].filter((el) => el.src === src);
+    const item = data[listName].find((el) => el.src === src);
 
     if (!item) return <Redirect to={`/${listName}`} />;
 
