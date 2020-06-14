@@ -15,7 +15,7 @@ class App extends React.Component {
         <header>
           <NavBar {...{ listName }} />
         </header>
-        <main>
+        <main className='container'>
           <Switch>
             <Route
               exact
