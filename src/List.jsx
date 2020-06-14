@@ -11,7 +11,7 @@ class List extends React.Component {
       <li className='list-item col-lg-4 text-center' key={name}>
         <Link to={`/${listName}/${src}`}>
           <img src={`/img/${src}.jpg`} alt={name} />
-          <h2>{name}</h2>
+          <h3 className='underline'>{name}</h3>
         </Link>
       </li>
     ));
