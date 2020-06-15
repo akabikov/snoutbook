@@ -8,15 +8,15 @@ class List extends React.Component {
     const { listName } = this.props;
 
     const list = data[listName].map(({ name, src, ...item }) => (
-      <li className='list-item col-lg-4 text-center' key={name}>
+      <li className='list-item col-lg-4 text-center mt-5' key={name}>
         <Link to={`/${listName}/${src}`}>
           <img src={`/img/${src}.jpg`} alt={name} />
-          <h3 className='underline'>{name}</h3>
+          <h3 className='underline mt-3'>{name}</h3>
         </Link>
       </li>
     ));
 
-    return <ul className='row mt-5'>{list}</ul>;
+    return <ul className='row'>{list}</ul>;
   }
 }
 

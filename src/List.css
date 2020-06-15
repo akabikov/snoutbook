@@ -15,8 +15,9 @@ ul {
 }
 
 .underline {
-  display: inline-block;
+  width: max-content;
   position: relative;
+  margin: auto;
 }
 
 .list-item a:hover {
