@@ -4,7 +4,6 @@ import List from "./List";
 import Card from "./Card";
 import NavBar from "./NavBar";
 import data from "./data.json";
-import "./App.css";
 
 class App extends React.Component {
   render() {
