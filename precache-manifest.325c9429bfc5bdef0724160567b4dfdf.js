@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cf09b6c7f2f9984c2a1ade8c12f9e403",
+    "revision": "33217bf52195f9003f51c4e658813731",
     "url": "/snoutbook/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/snoutbook/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "5e8744bd681d921c289c",
+    "revision": "931e0134ada3dc3c67b3",
     "url": "/snoutbook/static/css/main.856352b4.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/snoutbook/static/js/2.64163497.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5e8744bd681d921c289c",
-    "url": "/snoutbook/static/js/main.97eae525.chunk.js"
+    "revision": "931e0134ada3dc3c67b3",
+    "url": "/snoutbook/static/js/main.a0ac9142.chunk.js"
   },
   {
     "revision": "018db60344dafa4eb6c6",

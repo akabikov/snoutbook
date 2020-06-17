@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/snoutbook/static/css/main.856352b4.chunk.css",
-    "main.js": "/snoutbook/static/js/main.97eae525.chunk.js",
-    "main.js.map": "/snoutbook/static/js/main.97eae525.chunk.js.map",
+    "main.js": "/snoutbook/static/js/main.a0ac9142.chunk.js",
+    "main.js.map": "/snoutbook/static/js/main.a0ac9142.chunk.js.map",
     "runtime-main.js": "/snoutbook/static/js/runtime-main.abe04ca5.js",
     "runtime-main.js.map": "/snoutbook/static/js/runtime-main.abe04ca5.js.map",
     "static/css/2.af3c1da9.chunk.css": "/snoutbook/static/css/2.af3c1da9.chunk.css",
     "static/js/2.64163497.chunk.js": "/snoutbook/static/js/2.64163497.chunk.js",
     "static/js/2.64163497.chunk.js.map": "/snoutbook/static/js/2.64163497.chunk.js.map",
     "index.html": "/snoutbook/index.html",
-    "precache-manifest.21bbc52e52f91ba06c517f75931b96a2.js": "/snoutbook/precache-manifest.21bbc52e52f91ba06c517f75931b96a2.js",
+    "precache-manifest.325c9429bfc5bdef0724160567b4dfdf.js": "/snoutbook/precache-manifest.325c9429bfc5bdef0724160567b4dfdf.js",
     "service-worker.js": "/snoutbook/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/snoutbook/static/css/2.af3c1da9.chunk.css.map",
     "static/css/main.856352b4.chunk.css.map": "/snoutbook/static/css/main.856352b4.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.af3c1da9.chunk.css",
     "static/js/2.64163497.chunk.js",
     "static/css/main.856352b4.chunk.css",
-    "static/js/main.97eae525.chunk.js"
+    "static/js/main.a0ac9142.chunk.js"
   ]
 }
