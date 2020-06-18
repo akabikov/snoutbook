@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a9f7da4d3d499c6b8475caadfccbf42b",
+    "revision": "1c9b208f0379755053c5d269ee998c00",
     "url": "/snoutbook/index.html"
   },
   {
