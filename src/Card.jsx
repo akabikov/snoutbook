@@ -22,7 +22,11 @@ class Card extends React.Component {
       <div className='row justify-content-center mt-5'>
         <div className='col-11 col-lg-5'>
           <div className='card'>
-            <img className='card-img-top' src={`/img/${src}.jpg`} alt={name} />
+            <img
+              className='card-img-top'
+              src={`../img/${src}.jpg`}
+              alt={name}
+            />
             <div className='card-body'>
               <h2 className='card-title'>{name}</h2>
               <h4 className='card-subtitle text-muted'>{descr}</h4>

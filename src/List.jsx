@@ -10,7 +10,7 @@ class List extends React.Component {
     const list = data[listName].map(({ name, src, ...item }) => (
       <li className='list-item col-lg-4 text-center mt-5' key={name}>
         <Link to={`/${listName}/${src}`}>
-          <img src={`/img/${src}.jpg`} alt={name} />
+          <img src={`./img/${src}.jpg`} alt={name} />
           <h3 className='underline mt-4'>{name}</h3>
         </Link>
       </li>
