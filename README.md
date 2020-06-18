@@ -1,6 +1,6 @@
 # SnoutBook
 
-> Single-page catalogue with a list of items and individual items cards
+> Single-page catalog with a list of items and individual item cards
 
 ## Table of contents
 
